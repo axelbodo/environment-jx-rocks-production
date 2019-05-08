@@ -1,0 +1,9 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: axelbodo-production
+pipelineConfig:
+  agent: {}
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: axelbodo-production
+  pipelines: {}
